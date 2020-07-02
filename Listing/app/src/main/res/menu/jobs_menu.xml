@@ -1,0 +1,30 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="ALL"
+        android:id="@+id/submenu_ALL_JOBS" />
+
+    <item
+        android:title="Engineer"
+        android:id="@+id/submenu_ENGINEER" />
+
+    <item
+        android:title="Doctor"
+        android:id="@+id/submenu_DOCTOR" />
+
+    <item
+        android:title="Artist"
+        android:id="@+id/submenu_ARTIST" />
+
+    <item
+        android:title="Programmer"
+        android:id="@+id/submenu_PROGRAMMER" />
+
+    <item android:title="Student"
+        android:id="@+id/submenu_STUDENT" />
+
+    <item android:title="Teacher"
+        android:id="@+id/submenu_TEACHER" />
+
+</menu>

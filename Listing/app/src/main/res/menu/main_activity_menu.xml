@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Jobs"
+        android:id="@+id/JOBS_MAIN_MENU">
+        <!-- A empty SubMenu -->
+        <menu>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Admin Setting"
+        android:id="@+id/ADMIN_SETTING_MENU_ITEM">
+        <!-- A empty SubMenu -->
+    </item>
+
+    <item
+        android:title="New Employee"
+        android:id="@+id/ADDING_EMPLOYEE_MENU_ITEM">
+        <!-- A empty SubMenu -->
+    </item>
+
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        android:visible="true"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+</menu>

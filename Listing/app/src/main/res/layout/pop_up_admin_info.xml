@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:hint="Enter Name"
+        android:id="@+id/ADMIN_NAME_ID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:hint="E-mail"
+        android:id="@+id/ADMIN_EMAIL_ID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/CONFIG_BUTTON"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Confirm"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:textColor="#fff"/>
+
+</LinearLayout>
